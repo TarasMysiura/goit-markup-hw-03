@@ -155,7 +155,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  /* text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000; */
   width: 492px;
   margin-left: auto;
   margin-right: auto;
@@ -165,7 +164,6 @@ body {
 .hero .btn {
   font-family: inherit;
   background-color: var(--color-btn-defult);
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   border-color: var(--color-btn-defult);
   border-radius: 4px;
   font-weight: var(--font-weight-roboto-500);
@@ -306,7 +304,6 @@ body {
   border: 1px solid var(--color-accent);
   border-radius: 4px;
   font-weight: var(--font-weight-roboto-500);
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -321,8 +318,6 @@ body {
 .btn:hover,
 .btn.tel:focus {
   background-color: var(--color-btn-active);
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), */
-    /* 0px 2px 2px rgba(0, 0, 0, 0.12); */
   color: var(--color-white);
   border-color: var(--color-btn-active);
 }
