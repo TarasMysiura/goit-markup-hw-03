@@ -48,6 +48,7 @@ img {
 }
 
 body {
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
   background-color: var(--color-white);
@@ -65,7 +66,6 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid red; */
   margin: 0 auto;
 }
 
@@ -98,6 +98,7 @@ body {
   margin-right: 72px;
   padding-top: 24px;
   padding-bottom: 24px;
+  width: 115px;
 }
 
 .logo-span {
@@ -151,18 +152,30 @@ body {
 /*------------HERO------------------*/
 .hero {
   background-color: var(--color-title);
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero .title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
   font-weight: var(--font-weight-roboto-700);
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
   margin-bottom: 48px;
+  width: 496px;
 }
 
 .hero .btn {
@@ -175,22 +188,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
-
-  text-align: center;
-  align-items: center;
-
   color: var(--color-white);
   cursor: pointer;
   height: 56px;
   padding: 16px 32px;
-  justify-self: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero .btn:active {
