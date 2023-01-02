@@ -499,5 +499,5 @@ body {
 }
 .logo-header {
   font-family: var(--font-family-logo);
-  font-weight: 800;
+  font-weight: var(--font-weight-raleway-800);
 }
